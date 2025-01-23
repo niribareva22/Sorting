@@ -8,6 +8,7 @@ set(SOURCES
         src/SortAlgorithms.cpp
         src/Utility.cpp
         main.cpp
+        src/Student.cpp
 )
 
 add_executable(Sorting ${SOURCES})
