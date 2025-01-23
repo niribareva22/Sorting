@@ -4,3 +4,6 @@
 47	132	7593213208477994	CMakeFiles/Sorting.dir/src/Utility.cpp.obj	c19b217603d88ff3
 51	878	7593213208517970	CMakeFiles/Sorting.dir/main.cpp.obj	75b8b1ac72b3f7bf
 880	1066	7593213216796593	Sorting.exe	a2813749bebedd00
+9	892	7593234761148637	CMakeFiles/Sorting.dir/src/SortAlgorithms.cpp.obj	81f32be5f0abe23d
+19	1013	7593234761239520	CMakeFiles/Sorting.dir/main.cpp.obj	75b8b1ac72b3f7bf
+893	1838	7593234769986378	CMakeFiles/Sorting.dir/src/Student.cpp.obj	d4298537191e641e

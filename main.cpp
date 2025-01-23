@@ -1,6 +1,19 @@
 #include <iostream>
+#include "Student.h"
+#include "Utility.h"
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    vector<Student> students;
+    createSampleStudents(students);
+
+    cout << "Original list:"<<endl;
+    printStudents(students);
+
+    int choice = getSortingChoice();
+    sortStudents(students, choice);
+
+    cout << "Sorted list:"<<endl;
+    printStudents(students);
+
 }
