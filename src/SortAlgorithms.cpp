@@ -42,3 +42,29 @@ void insertionSort(vector<Student>& students) {
         students[j + 1] = key;
     }
 }
+
+void cocktailSort(vector<Student>& students) {
+    bool swapped = true;
+    size_t start = 0;
+    size_t end = students.size();
+    while (swapped) {
+        swapped = false;
+        for (size_t i = start; i < end - 1; ++i) {
+            if (students[i].grade > students[i + 1].grade) {
+                swap(students[i], students[i + 1]);
+                swapped = true;
+            }
+        }
+        if (!swapped)
+            break;
+        swapped = false;
+        end--;
+        for (size_t i = end - 1; i > start; --i) {
+            if (students[i - 1].grade > students[i].grade) {
+                swap(students[i - 1], students[i]);
+                swapped = true;
+            }
+        }
+        start++;
+    }
+}

@@ -8,7 +8,7 @@ using namespace std;
 
 int getSortingChoice() {
     int choice;
-    cout << "Choose sorting algorithm: 1) Selection Sort 2) Bubble Sort 3) Insertion Sort"<<endl;
+    cout << "Choose sorting algorithm: 1) Selection Sort 2) Bubble Sort 3) Insertion Sort 4) Cocktail Sort"<<endl;
     cin >> choice;
     return choice;
 }
@@ -18,6 +18,7 @@ void sortStudents(vector<Student>& students, int choice) {
         case 1: selectionSort(students); break;
         case 2: bubbleSort(students); break;
         case 3: insertionSort(students); break;
+        case 4: cocktailSort(students); break;
         default:
             cout << "Invalid choice."<<endl;
             break;

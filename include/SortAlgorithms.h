@@ -11,5 +11,6 @@
 void selectionSort(std::vector<Student>& students);
 void bubbleSort(std::vector<Student>& students);
 void insertionSort(std::vector<Student>& students);
+void cocktailSort(std::vector<Student>& students);
 
 #endif //SORTING_SORTALGORITHMS_H
