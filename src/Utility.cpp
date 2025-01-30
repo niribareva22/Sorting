@@ -3,6 +3,7 @@
 //
 #include "Utility.h"
 #include <iostream>
+#include "SortAlgorithms.h"
 using namespace std;
 
 int getSortingChoice() {
